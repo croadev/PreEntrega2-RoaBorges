@@ -26,6 +26,7 @@
 .content-fondo h2,
 .content-fondo p {
   color: white;
+  text-align: center;
 }
 
 .li-hover li:hover {
@@ -60,7 +61,7 @@
   margin: 0 auto;
   padding: 1rem;
   border-radius: 2rem;
-  width: 25rem;
+  width: 100%;
 }
 
 .formulario legend {
@@ -74,7 +75,7 @@
 
 @media (min-width: 768px) {
   .formulario {
-    width: 60rem;
+    width: 90%;
   }
 
   .contenedor_campos {
@@ -116,10 +117,6 @@
   padding: 1rem;
 }
 
-.boton:hover {
-  cursor: pointer;
-}
-
 .campo textarea {
-  height: 15rem;
+  height: 18.5rem;
 }
